@@ -1,23 +1,21 @@
 <template>
   <div>
-    <p class="text-xl">{{ $store.state.counter }}</p>
-    <button class="btn" @click="$store.commit('decrement')">
-      Decrement by 1
-    </button>
-    <button class="btn" @click="$store.commit('increment')">
-      Increment by 1
-    </button>
-    <button class="btn" @click="$store.dispatch('decrementRandomly')">
-      Decrement randomly
-    </button>
-    <button class="btn" @click="$store.dispatch('incrementRandomly')">
-      Increment randomly
-    </button>
+    <Counter />
+    <DecrementBy1 />
+    <IncrementBy1 />
+    <DecrementRandomly />
+    <IncrementRandomly />
   </div>
   <div>
-    <p>Total pressed times</p>
-    <p>{{ $store.state.pressed }}</p>
+    <TotalPress />
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import Counter from './components/Counter.vue'
+import DecrementBy1 from './components/DecrementBy1.vue'
+import IncrementBy1 from './components/IncrementBy1.vue'
+import DecrementRandomly from './components/DecrementRandomly.vue'
+import IncrementRandomly from './components/IncrementRandomly.vue'
+import TotalPress from './components/TotalPress.vue'
+</script>
