@@ -4,13 +4,16 @@ import axios from 'axios'
 export default createStore({
   state: {
     counter: 0,
+    pressed: 0,
   },
   mutations: {
     decrement(state, data = 1) {
       state.counter -= data
+      state.pressed += 1
     },
     increment(state, data = 1) {
       state.counter += data
+      state.pressed += 1
     },
   },
   actions: {

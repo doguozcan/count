@@ -14,6 +14,10 @@
       Increment randomly
     </button>
   </div>
+  <div>
+    <p>Total pressed times</p>
+    <p>{{ $store.state.pressed }}</p>
+  </div>
 </template>
 
 <script setup></script>
