@@ -2,8 +2,7 @@ import { createApp } from 'vue'
 import { createStore } from 'vuex'
 import App from './App.vue'
 import './assets/index.css'
-
-const store = createStore({})
+import store from './store'
 
 const app = createApp(App)
 
