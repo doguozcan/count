@@ -1,5 +1,8 @@
 <template>
-  <button class="btn" @click="$store.dispatch('decrementRandomly')">
+  <button
+    class="btn btn-primary btn-outline w-44"
+    @click="$store.dispatch('decrementRandomly')"
+  >
     Decrement randomly
   </button>
 </template>

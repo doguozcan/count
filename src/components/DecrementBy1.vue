@@ -1,5 +1,8 @@
 <template>
-  <button class="btn" @click="$store.commit('decrement')">
+  <button
+    class="btn btn-primary btn-outline w-44"
+    @click="$store.commit('decrement')"
+  >
     Decrement by 1
   </button>
 </template>

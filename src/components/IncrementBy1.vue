@@ -1,5 +1,8 @@
 <template>
-  <button class="btn" @click="$store.commit('increment')">
+  <button
+    class="btn btn-secondary btn-outline w-44"
+    @click="$store.commit('increment')"
+  >
     Increment by 1
   </button>
 </template>
