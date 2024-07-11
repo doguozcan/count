@@ -4,6 +4,13 @@ export default createStore({
   state: {
     counter: 0,
   },
-  mutations: {},
+  mutations: {
+    incrementBy1(state) {
+      state.counter += 1
+    },
+    decrementBy1(state) {
+      state.counter -= 1
+    },
+  },
   actions: {},
 })
