@@ -10,7 +10,7 @@ count is my first project where I've used Vuex for the first time. I've created 
 ## Technologies used
 
 - **<a href="https://vuejs.org/">Vue</a>**
-- - **<a href="https://vuex.vuejs.org/">Vuex</a>**
+- **<a href="https://vuex.vuejs.org/">Vuex</a>**
 - **<a href="https://vitejs.dev/">Vite</a>**
 - **<a href="https://tailwindcss.com/">Tailwind CSS</a>**
 - **<a href="https://daisyui.com/">daisyUI</a>**
